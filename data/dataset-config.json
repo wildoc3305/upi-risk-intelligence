@@ -1,0 +1,14 @@
+{
+  "name": "upi-risk-intelligence",
+  "version": "0.1.0",
+  "description": "Dataset and experiment configuration for an AI-powered UPI transaction risk detection prototype.",
+  "data": {
+    "raw_path": "data/raw",
+    "processed_path": "data/processed",
+    "target_column": "is_fraud"
+  },
+  "notes": [
+    "The exact dataset schema will be finalized after the selected public/synthetic dataset is added.",
+    "Do not place real customer or personally identifiable transaction data in the repository."
+  ]
+}
