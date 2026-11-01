@@ -11,9 +11,10 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data and model artifacts
+# Data and generated reports
 data/raw/*
 data/processed/*
+reports/
 models/*.joblib
 models/*.pkl
 
